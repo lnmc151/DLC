@@ -35,7 +35,7 @@
             <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY_DESCRIPTION</LocID>                 <Text>Epidemiologists investigate the distribution of diseases and parasites to determine the cause, risk factors, progress, life cycle, or mode of transmission.</Text>	</GameDBLocalizedString> <!--todo description-->
                                                                                                                 
             <!-- Global Admin Events-->                                                                         
-            <GameDBLocalizedString>      <LocID>DAYS_LEFT</LocID>                                               <Text>Days left: </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DAYS_LEFT</LocID>                                               <Text>วันที่เหลือ: </Text></GameDBLocalizedString>
                                                                                                                  
             <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK</LocID>                        <Text>การระบาดของโรคระบาด!</Text></GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DLC_WORLD_EVENT_DISEASE_OUTBREAK_TEXT</LocID>                   <Text>You haven't contained all infectious patients and as a result a part of your hospital got infected. Staff must now wear face masks and will work slowly!</Text></GameDBLocalizedString>
@@ -50,7 +50,7 @@
             <GameDBLocalizedString>      <LocID>DLC_EVENT_PANDEMIC_CORONA_DESC</LocID>                          <Text>Yet another wave of the new coronavirus Covid-19 has hit the city. All hospitals and medical facilities should prepare for an enormous number of infected patients.</Text></GameDBLocalizedString>
                                                                                                                 
             <!-- RELATED FILE: StringTable[Language]Notifications.xml -->                                       
-            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED</LocID>               <Text>Daily news</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED</LocID>               <Text>ข่าวประจำวัน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_DISEASE_OUTBREAK_ENDED_TEXT</LocID>          <Text>All of your staff health has returned to normal. You survived the epidemic outbreak!</Text>  </GameDBLocalizedString>
 
             <!-- RELATED FILE: StringTable[Language]Characters.xml -->
@@ -168,7 +168,7 @@
             <GameDBLocalizedString>      <LocID>DIA_018_DESCRIPTION</LocID>                                     <Text>Ebola virus disease is a deadly viral hemorrhagic fever. It is caused by ebolaviruses, spread by direct contact with infected body fluids.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_019</LocID>                                                 <Text>มาลาเรีย</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_019_DESCRIPTION</LocID>                                     <Text>Malaria is a tropical infectious disease caused by parasites from the plasmodium group. It is spread via infected mosquito bites.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_020</LocID>                                                 <Text>ไวรัสไข้เหลือง</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_020</LocID>                                                 <Text>ไข้เหลือง</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_020_DESCRIPTION</LocID>                                     <Text>Yellow fever is a tropical viral disease that is spread by the bite of an infected female mosquito. It is caused by yellow fever virus, enveloped RNA virus of the family Flaviridae.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_021</LocID>                                                 <Text>ไข้เวสต์ไนล์</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_021_DESCRIPTION</LocID>                                     <Text>West Nile fever is an infection caused by the West Nile virus, the disease is spread by infected mosquitos. Most people do not develop any symptoms. The virus was discovered in Uganda in 1937.</Text>  </GameDBLocalizedString>
@@ -278,7 +278,7 @@
             <GameDBLocalizedString>      <LocID>SYM_DENGUE_VIRUS_DETECTED_DESCRIPTION</LocID>                   <Text>RT-PCR has detected dengue virus genome in patient's serum samples.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED</LocID>                                 <Text>พบไวรัสซิกา</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_ZIKA_VIRUS_DETECTED_DESCRIPTION</LocID>                     <Text>RT-PCR has detected Zika virus in patient's samples.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED</LocID>                                <Text>Ebola virus discovered</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED</LocID>                                <Text>ค้นพบไวรัสอีโบล่า</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_EBOLA_VIRUS_DETECTED_DESCRIPTION</LocID>                    <Text>ELISA testing detected Ebola virus.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED</LocID>                                 <Text>Plasmodium detected</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_PLASMODIUM_DETECTED_DESCRIPTION</LocID>                     <Text>ELISA testing has detected IgG and IgM class antibodies against Malaria in patient's serum sample.</Text>  </GameDBLocalizedString>
