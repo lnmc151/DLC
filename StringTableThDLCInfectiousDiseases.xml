@@ -5,7 +5,7 @@
         <LanguageNameLocalized>Thai</LanguageNameLocalized>
 
         <Contributors>
-            <Name>Oxymoron Games</Name>
+            <Name>lnmc151</Name>
         </Contributors>
 
         <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
@@ -18,7 +18,7 @@
             
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD</LocID>                      <Text>ห้องกักตัว</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>ห้องกักตัวเป็นหอคนไข้แยกต่างหาก ที่มีใช้ในการแยกคนไข้ ที่เป็นโรคติดเชื้อและเพื่อป้องกันการแพร่กระจายของเชื้อโรค </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>DID office</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>ห้องตรวจโรค</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>Infectious diseases office represents the outpatient clinical office for simple examinations and treatments. Staff requirements:\n1x Epidemiologist </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE</LocID>                          <Text>Diagnostic unit</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>Diagnostic unit at Infectious diseases department provides examination and treatment procedures for hospitalized patients. \n\nMin. Staff requirements: \n1x Epidemiologist \n(Personnel based in On-call room)</Text>  </GameDBLocalizedString>
@@ -60,10 +60,10 @@
             <GameDBLocalizedString>      <LocID>HIGHLY_CONTAGIOUS</LocID>                                       <Text>Highly contagious!</Text>  </GameDBLocalizedString>
 
             <!--Doors-->
-            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD</LocID>                     		                <Text>ประตูไบโอฮาซาร์ด</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW</LocID>                                        <Text>Door with an oval window</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD_DOUBLE</LocID>                                   <Text>Double biohazard door</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW_DOUBLE</LocID>                                 <Text>ประตูบานคู่พร้อมหน้าต่างรูปไข่ </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD</LocID>                     		                <Text>ประตู ไบโอฮาซาร์ด</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW</LocID>                                        <Text>ประตูหน้าต่างรูปไข่</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD_DOUBLE</LocID>                                   <Text>ประตูบานคู่ ไบโอฮาซาร์ต</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW_DOUBLE</LocID>                                 <Text>ประตูบานคู่ หน้าต่างรูปไข่ </Text>  </GameDBLocalizedString>
 
             <!-- Objects-->
             <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_OLD</LocID>                     	    	<Text>Life monitor</Text>  </GameDBLocalizedString>
@@ -75,28 +75,28 @@
             <!-- Description for all three versions of isolation wall -->                                      
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_DESCRIPTION</LocID>                       <Text>Provides protection against all diseases caused by pathogens that can be transmitted through the air.</Text>  </GameDBLocalizedString>
                                                                                                                
-            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT</LocID>                     <Text>Sanitary equipment</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT</LocID>                     <Text>อุปกรณ์สุขภัณฑ์</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_SANITARY_EQUIPMENT_DESCRIPTION</LocID>         <Text>Intended for isolation rooms to cover basic hygiene of patients.</Text>  </GameDBLocalizedString>
                                                                                                                
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC</LocID>                    			    	<Text>Isolation AC</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AC_DESCRIPTION</LocID>                         <Text>Air conditioning provides filtered fresh air and higher comfort for isolated patients.</Text>  </GameDBLocalizedString>
                                                                                                                
-            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION</LocID>                                  <Text>Sign - caution</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION</LocID>                                  <Text>ป้าย - ข้อควรระวัง</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_WARNING_CAUTION_DESCRIPTION</LocID>                      <Text>Outbreak alert.</Text>  </GameDBLocalizedString>
                                                                                                                
-            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE</LocID>                               <Text>Sign - quarantine</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE_DESCRIPTION</LocID>                   <Text>Authorized personnel only.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE</LocID>                               <Text>ป้าย - กักกัน</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_WARNING_QUARANTINE_DESCRIPTION</LocID>                   <Text>พนักงานที่ได้รับอนุญาตเท่านั้น.</Text>  </GameDBLocalizedString>
                                                                                                                
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR</LocID>                               <Text>Isolation air door</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_AIR_DOOR_DESCRIPTION</LocID>                   <Text>Negative airflow system is used to reduce the risk of airborne contamination of surrounding facilities.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X</LocID>                                   <Text>Chartboard</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X</LocID>                                   <Text>ชาร์ตบอร์ด </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_NOTICE_BOARD_X_DESCRIPTION</LocID>                       <Text>Magnetic chartboard.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS</LocID>                                    <Text>Disinfectant tools</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_DESINFECTANTS_DESCRIPTION</LocID>                        <Text>Disinfectant tools suitable for everyday use.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT1</LocID>                                   <Text>โปสเตอร์ - การติดเชื้อ </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_POSTER_INFECT2</LocID>                                   <Text>โปสเตอร์ - มาลาเรีย </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH_X</LocID>                                <Text>Bench - modern</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_BENCH_X</LocID>                                <Text>ม้านั่ง - ทันสมัย</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_COFFEE_TABLE_2</LocID>                                   <Text>โต๊ะกาแฟ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01</LocID>                         <Text>รถพยาบาล</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>COMPOSITE_OBJECT_AMBULANCE_X_01_DESCRIPTION</LocID>             <Text>รถพยาบาลรุ่นใหม่สไตล์ยุโรป ที่พร้อมนำผู้ป่วยในสภาวะทางการแพทย์ที่แย่ลงที่สุด </Text>  </GameDBLocalizedString>
@@ -121,7 +121,7 @@
             <GameDBLocalizedString>      <LocID>DIA_PTSX</LocID>                                                <Text>ไอกรน</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_LEGX</LocID>                                                <Text>โรคลีเจียนแนร์</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_TPFX</LocID>                                                <Text>ไข้รากสาดใหญ่</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_ATSX</LocID>                                                <Text>American trypanosomias</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_ATSX</LocID>                                                <Text>โรคชากาส</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_TXMX</LocID>                                                <Text>โรคท็อกโซพลาสโมซิส</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_BABX</LocID>                                                <Text>บาบีโอซีส</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_LYDX</LocID>                                                <Text>โรคลายม์</Text>  </GameDBLocalizedString>
@@ -130,7 +130,7 @@
             <GameDBLocalizedString>      <LocID>DIA_RABX</LocID>                                                <Text>พิษสุนัขบ้า</Text>  </GameDBLocalizedString>
             
             <!--DIAGNOSES - NEW -->
-            <GameDBLocalizedString>      <LocID>DIA_001</LocID>                                                 <Text>Anaplasmosis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_001</LocID>                                                 <Text>อะนาพลาสโมซิส </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>Anaplasmosis is caused by bacteria Anaplasmosis phagocytophilum that is spread by ticks.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_002</LocID>                                                 <Text>เออร์ลิชิโอซิส </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>Ehrlichiosis is a flu-like disease that is closely related to Anaplasmosis. It is also spread by ticks.</Text>  </GameDBLocalizedString>
@@ -148,15 +148,15 @@
             <GameDBLocalizedString>      <LocID>DIA_008_DESCRIPTION</LocID>                                     <Text>The etiologic agent of Queensland tick typhus is bacteria Rickettsia australis. The disease occurs only in Eastern Australia, including Tasmania.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_009</LocID>                                                 <Text>Flinders Island spotted fever</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_009_DESCRIPTION</LocID>                                     <Text>Flinders Island spotted fever is caused by Rickettsia honei and the disease occurs mainly in southeast and south Asia and also in Australia.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_010</LocID>                                                 <Text>Japanese spotted fever</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_010</LocID>                                                 <Text>ไข้ด่างญี่ปุ่น</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_010_DESCRIPTION</LocID>                                     <Text>Japanese spotted fever occurs mainly in warm areas along the Pacific side of southwest and central Japan. The disease is caused by Rickettsia japonica, transmitted via a tick bite.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_011</LocID>                                                 <Text>TIBOLA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_011</LocID>                                                 <Text>ทิโบลา</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_011_DESCRIPTION</LocID>                                     <Text>Tick-borne lymphadenopathy is a tick-borne rickettsiosis relatively common in central Europe and casued by Rickettsia slovaca.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_012</LocID>                                                 <Text>Rickettsialpox</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_012_DESCRIPTION</LocID>                                     <Text>Rickettsialpox is a mite-borne infectious disease caused by Rickettsia akari, that is spread by mites usually living on house mice.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_013</LocID>                                                 <Text>บรูเซลโลซิส</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_013_DESCRIPTION</LocID>                                     <Text>Brucellosis is disease caused by Brucella species bacteria and it is spread by ingestion of unpasterized milk or undercooked meat.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_014</LocID>                                                 <Text>Chikungunya</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_014</LocID>                                                 <Text>ชิคุนกุนยา</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_014_DESCRIPTION</LocID>                                     <Text>Chikungunya virus infection is spread by the bite of an infected mosquito. There is no vaccine.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_015</LocID>                                                 <Text>ไข้คิว</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_015_DESCRIPTION</LocID>                                     <Text>Q fever is a disease caused by Coxiella burnetti and it is spread by various animals like cattle, sheep, goats, cats and dogs. The bacterium is an intracellular parasite, capable of growth and reproduction inside the hosts cells.</Text>  </GameDBLocalizedString>
@@ -352,13 +352,13 @@
             <GameDBLocalizedString>      <LocID>TRT_CHLORAMPHENICOL_DESCRIPTION</LocID>                         <Text>A special antibiotic used in wide spectrum of bacterial infections. \n\nRequired room: DID Office / Diagnostic unit + Regular ward at DID / ICU</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN</LocID>                                        <Text>อะซิโทรมัยซิน</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_AZITHROMYCIN_DESCRIPTION</LocID>                            <Text>An antibiotic used to fight various bacterial infections. \n\nRequired room: DID Office / Diagnostic unit at DID / ICU</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS</LocID>                           <Text>IM antibiotics</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS</LocID>                           <Text>ยาปฏิชีวนะ IM</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_INTRAMUSCULAR_ANTIBIOTICS_DESCRIPTION</LocID>               <Text>Intramuscular antibiotics are delivered as an injection into a large muscle. \n\nRequired room: DID Office / Diagnostic unit at DID / ICU</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT</LocID>                         <Text>Complex antiviral therapy</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_SPECIAL_ANTIVIRAL_TREATMENT_DESCRIPTION</LocID>             <Text>Complex antiviral therapy is used in cases where there are no targeted antivirals available. \n\nRequired room: DID Office / Diagnostic unit + Isolation unit at DID / ICU</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM</LocID>                                  <Text>Experimental serum</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_EXPERIMENTAL_SERUM_DESCRIPTION</LocID>                      <Text>Experimental intravenous medication serum that treats ebola hemorrhagic fever. \n\nRequired room: DID Office / Diagnostic unit + Isolation unit at DID / ICU</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION</LocID>                             <Text>Antimalarial medication</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION</LocID>                             <Text>ยาต้านมาลาเรีย</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_ANTIMALARIAL_MEDICATION_DESCRIPTION</LocID>                 <Text>Combination of various antibiotics, medication and supportive substances that fights malaria and malaria-related diseases. \n\nRequired room: DID Office / Diagnostic unit + Regular ward at DID / ICU</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY</LocID>                            <Text>IV passive immunotherapy</Text>	</GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_IV_PASSIVE_IMMUNOTHERAPY_DESCRIPTION</LocID>                <Text>Intravenous doses of specific antibodies targeted against different viral hemorrhagic fevers. \n\nRequired room: DID Office / Diagnostic unit + Regular ward at DID / ICU</Text>	</GameDBLocalizedString>
@@ -392,7 +392,7 @@
             <GameDBLocalizedString>      <LocID>TRT_ANTIVIROTICS_DESCRIPTION</LocID>                            <Text>Medication that inhibits viral infections. Unlike antibiotics, antiviral drugs do not directly destroy the pathogen. \n\nRequired room: Doctor's office / Observation room / ICU / Office/Diagnostic unit ar General Surgery dpt / Neurology dpt / DID</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_ANTIDIARRHEALS_DESCRIPTION_V2</LocID>                       <Text>Drugs that stop diarrhea, relieve the symptoms, but don't eliminate the cause. They usually work by decreasing bowel movement. \n\nRequired room: Doctor's office / Observation room / Trauma center / ICU / Office/Diagnostic unit at General Surgery dpt / Internal Medicine dpt / DID</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>TRT_ANTIPARASITIC_DRUGS_DESCRIPTION_V2</LocID>                  <Text>Drugs that are used in treatment of various parasite infections. \n\nRequired room: Doctor's office / Observation room / Trauma center / Office/Diagnostic unit at Internal Medicine dpt / DID</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_NASAL_DROPS_DESCRIPTION</LocID>                             <Text>Drugs that that clear the nasal cavity and increase ventilation through the nose. \n\nRequired room: Doctor's office / Observation room / Office/Diagnostic unit at Internal Medicine dpt / Cardiology dpt / DID</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_NASAL_DROPS_DESCRIPTION</LocID>                             <Text>ยาที่ช่วยล้างโพรงจมูกและเพิ่มการระบายอากาศทางจมูก \n\nRequired room: Doctor's office / Observation room / Office/Diagnostic unit at Internal Medicine dpt / Cardiology dpt / DID</Text>  </GameDBLocalizedString>
 
             <!--SCENARIO-->
             <GameDBLocalizedString>      <LocID>LEVEL_SANDBOX_HOSPITAL_I</LocID>                                <Text>โรคติดเชื้อ: โรงบาลใหญ่</Text>	</GameDBLocalizedString>
@@ -401,7 +401,7 @@
             <GameDBLocalizedString>      <LocID>NOTIF_GLOBAL_EVENT_TEXT</LocID>                                 <Text>{1}</Text>  </GameDBLocalizedString>
 
             <!--new hematolab for the department-->
-            <GameDBLocalizedString>       <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DID</LocID>                     		<Text>Hematology Lab</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>       <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DID</LocID>                     		<Text>ห้องปฏิบัติการโลหิตวิทยา </Text></GameDBLocalizedString>
 			
 			<!--new insurance-->
 			<GameDBLocalizedString>   	 <LocID>IN_COM_ID_NAME</LocID>                           				<Text>ชีวิตมีความสุข</Text>  </GameDBLocalizedString>
