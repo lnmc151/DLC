@@ -134,15 +134,15 @@
             <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>Anaplasmosis is caused by bacteria Anaplasmosis phagocytophilum that is spread by ticks.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_002</LocID>                                                 <Text>เออร์ลิชิโอซิส </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>Ehrlichiosis is a flu-like disease that is closely related to Anaplasmosis. It is also spread by ticks.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_003</LocID>                                                 <Text>Boutonneuse fever</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_003</LocID>                                                 <Text>ไข้ Boutonneuse </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_003_DESCRIPTION</LocID>                                     <Text>Boutonneuse fever is a fever caused by rickettsial infection caused by Rickettsia conorii and it is transmitted by the dog tick. The disease occurrs mainly in the Mediterranean basin, Middle East, Indian subcontinent and Africa.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_004</LocID>                                                 <Text>Rocky Mountain spotted fever</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_004</LocID>                                                 <Text>ไข้ด่างภูเขาร็อคกี้ </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_004_DESCRIPTION</LocID>                                     <Text>Bacterial disease caused by Rickettsia rickettsii, spread by various species of ticks (american dog tick, rocky mountain wood tick, brown dog tick).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_005</LocID>                                                 <Text>Colorado tick fever</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_005</LocID>                                                 <Text>ไข้เห็บโคโลราโด </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_005_DESCRIPTION</LocID>                                     <Text>Viral infection spread by Rocky Mountain wood tick, symptoms are very similar to Rocky Mountain spotted fever.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_006</LocID>                                                 <Text>Pacific Coast tick fever</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_006</LocID>                                                 <Text>ไข้เห็บชายฝั่งแปซิฟิก</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_006_DESCRIPTION</LocID>                                     <Text>Bacterial disease caused by Rickettsia philipii, spread by Pacific coast tick.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_007</LocID>                                                 <Text>African tick bite fever</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_007</LocID>                                                 <Text>ไข้เห็บแอฟริกา </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_007_DESCRIPTION</LocID>                                     <Text>African tick bite fever - ATBF is a bacterial infection caused by Rickettsia africae, spread by ticks. The disease occurs in Sub-Saharan Africa, Carribean and Oceania.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_008</LocID>                                                 <Text>Queensland tick typhus</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_008_DESCRIPTION</LocID>                                     <Text>The etiologic agent of Queensland tick typhus is bacteria Rickettsia australis. The disease occurs only in Eastern Australia, including Tasmania.</Text>  </GameDBLocalizedString>
@@ -196,7 +196,7 @@
             <GameDBLocalizedString>      <LocID>DIA_032_DESCRIPTION</LocID>                                     <Text>HPS - Hantavirus Pulmonary syndrome is a serious viral respiratory disease caused by hantaviruses spread by rodents.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_033</LocID>                                                 <Text>โนโรไวรัส</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_033_DESCRIPTION</LocID>                                     <Text>Norovirus, also called winter vomiting bug is a virus that causes diarrhea and vomiting. People that are infected can shed billions of norovirus particles.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_034</LocID>                                                 <Text>Rotavirus A</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_034</LocID>                                                 <Text>โรต้าไวรัส A</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_034_DESCRIPTION</LocID>                                     <Text>Rotavirus A causes watery diarrhea. The best prevention is vaccination.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_035</LocID>                                                 <Text>เมลิออยโดสิส</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_035_DESCRIPTION</LocID>                                     <Text>Melioidosis, also called Whitmore's disease is an infectious disease caused by Burkholderia pseudomallei and it is transmitted by both animals and contaminated soil or water.</Text>  </GameDBLocalizedString>
@@ -225,9 +225,9 @@
             <GameDBLocalizedString>      <LocID>SYM_INFLUENZA_A_DETECTED_X</LocID>                              <Text>พบไข้หวัดใหญ่สายพันธุ์ A </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_A_POSITIVE_X</LocID>                              <Text>ไวรัสตับอักเสบ A </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_HEPATITIS_B_POSITIVE_X</LocID>                              <Text>ไวรัสตับอักเสบ B </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_VIBRIO_CHOLERAE_DETECTED_X</LocID>                          <Text>พบเชื้อวิบริโอคอเลอเร</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_SALMONELLA_TYPHI_DETECTED_X</LocID>                         <Text>S. typhi detected</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_M._TUBERCULOSIS_DETECTED_X</LocID>                          <Text>Tuberculosis detected</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_VIBRIO_CHOLERAE_DETECTED_X</LocID>                          <Text>พบเชื้ออหิวาตกโรค</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_SALMONELLA_TYPHI_DETECTED_X</LocID>                         <Text>พบไช้ไทฟอยด์</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_M._TUBERCULOSIS_DETECTED_X</LocID>                          <Text>พบวัณโรค</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_F._TULARENSIS_DETECTED_X</LocID>                            <Text>F. tularensis detected</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_B._ANTHRACIS_DETECTED_X</LocID>                             <Text>B. anthracis detected</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_STREPTOBACILLUS_DETECTED_X</LocID>                          <Text>Streptobacillus detected</Text>  </GameDBLocalizedString>
