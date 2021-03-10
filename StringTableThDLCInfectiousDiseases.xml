@@ -5,7 +5,7 @@
         <LanguageNameLocalized>Thai</LanguageNameLocalized>
 
         <Contributors>
-            <Name>lnmc151</Name>
+            <Name></Name>
         </Contributors>
 
         <!-- Note: feel free to rearrange any sentences with the parameter {1} so the word order makes sense -->
@@ -17,14 +17,14 @@
             <GameDBLocalizedString>      <LocID>DPT_INFECTIOUS_DISEASES_DEPARTMENT</LocID>                      <Text>ติดเชื้อ</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD</LocID>                      <Text>ห้องกักตัว</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>ห้องกักตัวเป็นหอคนไข้แยกต่างหาก ที่มีใช้ในการแยกคนไข้ ที่เป็นโรคติดเชื้อและเพื่อป้องกันการแพร่กระจายของเชื้อโรค </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>ห้องกักตัวเป็นห้อง คนไข้แยกต่างหาก ที่ใช้แยกคนไข้ ที่เป็นโรคติดเชื้อและเพื่อป้องกันการแพร่ระบาดเชื้อโรค </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>ห้องตรวจโรค</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>Infectious diseases office represents the outpatient clinical office for simple examinations and treatments. พนักงานที่ต้องการ:\n1x นักระบาดวิทยา </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE</LocID>                          <Text>หน่วยวินิจฉัย</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>หน่วยวินิจฉัยที่แผนกโรคติดเชื้อมีขั้นตอนการตรวจสอบและการรักษาสำหรับผู้ป่วยในโรงพยาบาล \n\nMin. พนักงานที่ต้องการ: \n1x นักระบาดวิทยา \n(Personnel based in On-call room)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</LocID>            <Text>หน่วยหัวใจ</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>พื้นที่อันตรายทางชีวภาพให้เข้าโดยใช้หน้ากากป้องกันและถุงมือเท่านั้น.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>พื้นที่อันตรายทางชีวภาพ สามารถเข้าได้โดยต้องใช้หน้ากากป้องกัน และถุงมือเท่านั้น.</Text>  </GameDBLocalizedString>
                                                                                                                 
             <!-- Hospitalization alias -->                                                                      
             <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION</LocID>                           <Text>การกักตัวในโรงพยาบาล</Text>  </GameDBLocalizedString>
@@ -57,7 +57,7 @@
             <!-- Satisfaction modifiers -->
             <GameDBLocalizedString>      <LocID>DLC_INFECTED</LocID>                                            <Text>ติดเชื้อแล้ว</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>HIGHLY_CONTAGIOUS</LocID>                                       <Text>Highly contagious!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>HIGHLY_CONTAGIOUS</LocID>                                       <Text>ติดต่อสูง</Text>  </GameDBLocalizedString>
 
             <!--Doors-->
             <GameDBLocalizedString>      <LocID>DOOR_BIOHAZARD</LocID>                     		                <Text>ประตู ไบโอฮาซาร์ด</Text>  </GameDBLocalizedString>
@@ -131,9 +131,9 @@
             
             <!--DIAGNOSES - NEW -->
             <GameDBLocalizedString>      <LocID>DIA_001</LocID>                                                 <Text>อะนาพลาสโมซิส </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>อะนาพลาสโมซิสเกิดจากแบคทีเรีย Anaplasmosis phagocytophilum ที่แพร่ด้วยเห็บ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>อะนาพลาสโมซิสเกิดจากแบคทีเรีย Anaplasmosis phagocytophilum ที่แพร่กระจายด้วยเห็บ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_002</LocID>                                                 <Text>เออร์ลิชิโอซิส </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>เออร์ลิชิโอซิส เป็นโรคคล้ายไข้หวัดใหญ่ เกี่ยวข้องกับอะนาพลาสโมซิส นอกจากนี้ยังแพร่กระจายด้วยเห็บ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>เออร์ลิชิโอซิส เป็นโรคคล้ายไข้หวัดใหญ่ เกี่ยวข้องกับอะนาพลาสโมซิส นอกจากนี้แล้วยังแพร่กระจายด้วยเห็บ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_003</LocID>                                                 <Text>ไข้ Boutonneuse </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_003_DESCRIPTION</LocID>                                     <Text>Boutonneuse fever is a fever caused by rickettsial infection caused by Rickettsia conorii and it is transmitted by the dog tick. The disease occurrs mainly in the Mediterranean basin, Middle East, Indian subcontinent and Africa.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_004</LocID>                                                 <Text>ไข้ด่างภูเขาร็อคกี้ </Text>  </GameDBLocalizedString>
@@ -200,7 +200,7 @@
             <GameDBLocalizedString>      <LocID>DIA_034_DESCRIPTION</LocID>                                     <Text>Rotavirus A causes watery diarrhea. The best prevention is vaccination.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_035</LocID>                                                 <Text>เมลิออยโดสิส</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_035_DESCRIPTION</LocID>                                     <Text>Melioidosis, also called Whitmore's disease is an infectious disease caused by Burkholderia pseudomallei and it is transmitted by both animals and contaminated soil or water.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_036</LocID>                                                 <Text>Respiratory Syncytial Virus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_036</LocID>                                                 <Text>ไวรัส Respiratory Syncytial </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_036_DESCRIPTION</LocID>                                     <Text>HRSV - also known as Human orthopneumovirus is a syncytial virus causing respiratory infections.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_037</LocID>                                                 <Text>Lymphocytic choriomeningitis</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_037_DESCRIPTION</LocID>                                     <Text>Lymphocytic choriomeningitis is a rodent-borne viral infectious disease caused by lymphocytic choriomeningitis virus, spread commonly by house mice.</Text>  </GameDBLocalizedString>
