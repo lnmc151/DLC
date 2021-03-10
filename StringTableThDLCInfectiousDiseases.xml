@@ -19,20 +19,20 @@
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD</LocID>                      <Text>ห้องกักตัว</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_ISOLATION_INPATIENT_WARD_DESCRIPTION</LocID>          <Text>ห้องกักตัวเป็นหอคนไข้แยกต่างหาก ที่มีใช้ในการแยกคนไข้ ที่เป็นโรคติดเชื้อและเพื่อป้องกันการแพร่กระจายของเชื้อโรค </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE</LocID>                    <Text>ห้องตรวจโรค</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>Infectious diseases office represents the outpatient clinical office for simple examinations and treatments. Staff requirements:\n1x Epidemiologist </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE</LocID>                          <Text>Diagnostic unit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>Diagnostic unit at Infectious diseases department provides examination and treatment procedures for hospitalized patients. \n\nMin. Staff requirements: \n1x Epidemiologist \n(Personnel based in On-call room)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</LocID>            <Text>Cardiography unit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INFECTIOUS_DISEASES_OFFICE_DESCRIPTION</LocID>        <Text>Infectious diseases office represents the outpatient clinical office for simple examinations and treatments. พนักงานที่ต้องการ:\n1x นักระบาดวิทยา </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE</LocID>                          <Text>หน่วยวินิจฉัย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_INPATIENT_DID_OFFICE_DESCRIPTION</LocID>              <Text>หน่วยวินิจฉัยที่แผนกโรคติดเชื้อมีขั้นตอนการตรวจสอบและการรักษาสำหรับผู้ป่วยในโรงพยาบาล \n\nMin. พนักงานที่ต้องการ: \n1x นักระบาดวิทยา \n(Personnel based in On-call room)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ROOM_TYPE_CARDIOVASCULAR_DIAGNOSTIC_UNIT_DID</LocID>            <Text>หน่วยหัวใจ</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>Biohazard area, entry only with protective face mask and gloves.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DLC_TOOLTIP_LOGISTICS_BIOHAZARD</LocID>                         <Text>พื้นที่อันตรายทางชีวภาพให้เข้าโดยใช้หน้ากากป้องกันและถุงมือเท่านั้น.</Text>  </GameDBLocalizedString>
                                                                                                                 
             <!-- Hospitalization alias -->                                                                      
             <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION</LocID>                           <Text>การกักตัวในโรงพยาบาล</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION_DESCRIPTION</LocID>               <Text>Hospitalize the patient at an isolation unit to prevent spread of contagious diseases and give them a high level of care.\n\nRequired room: Isolation ward</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>TRT_HOSPITALIZATION_ISOLATION_DESCRIPTION</LocID>               <Text>นำผู้ป่วยไปรักษาที่หอผู้ป่วยแยกเพื่อป้องกันการแพร่กระจายของโรคติดเชื้อและให้การดูแลในระดับสูง\n\nห้องที่ต้องการ: ห้องกักตัว</Text>  </GameDBLocalizedString>
                                                                                                                 
             <!-- SKILLS-->                                                                                      
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY</LocID>                             <Text>ระบาดวิทยา</Text>	</GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY_DESCRIPTION</LocID>                 <Text>Epidemiologists investigate the distribution of diseases and parasites to determine the cause, risk factors, progress, life cycle, or mode of transmission.</Text>	</GameDBLocalizedString> <!--todo description-->
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY</LocID>                             <Text>นักระบาดวิทยา</Text>	</GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SKILL_DOC_SPEC_EPIDEMIOLOGY_DESCRIPTION</LocID>                 <Text>นักระบาดวิทยาจะตรวจสอบการแพร่กระจายของโรคและปรสิตเพื่อหาสาเหตุปัจจัยเสี่ยงความก้าวหน้าวงจรชีวิตหรือโหมดการแพร่เชื้อ</Text>	</GameDBLocalizedString> <!--todo description-->
                                                                                                                 
             <!-- Global Admin Events-->                                                                         
             <GameDBLocalizedString>      <LocID>DAYS_LEFT</LocID>                                               <Text>วันที่เหลือ: </Text></GameDBLocalizedString>
@@ -66,8 +66,8 @@
             <GameDBLocalizedString>      <LocID>DOOR_OVAL_WINDOW_DOUBLE</LocID>                                 <Text>ประตูบานคู่ หน้าต่างรูปไข่ </Text>  </GameDBLocalizedString>
 
             <!-- Objects-->
-            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_OLD</LocID>                     	    	<Text>Life monitor</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DLC</LocID>                        <Text>Mechanical ventilator</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_LIFE_MONITOR_OLD</LocID>                     	    	<Text>จอสัญญาณชีพ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>OBJECT_MECHANICAL_VENTILATOR_DLC</LocID>                        <Text>เครื่องช่วยหายใจ</Text>  </GameDBLocalizedString>
                                                                                                                
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL</LocID>                                   <Text>Isolation wall</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>OBJECT_ISOLATION_WALL_BIOHAZARD</LocID>                         <Text>Isolation wall</Text>  </GameDBLocalizedString>
@@ -131,9 +131,9 @@
             
             <!--DIAGNOSES - NEW -->
             <GameDBLocalizedString>      <LocID>DIA_001</LocID>                                                 <Text>อะนาพลาสโมซิส </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>Anaplasmosis is caused by bacteria Anaplasmosis phagocytophilum that is spread by ticks.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_001_DESCRIPTION</LocID>                                     <Text>อะนาพลาสโมซิสเกิดจากแบคทีเรีย Anaplasmosis phagocytophilum ที่แพร่ด้วยเห็บ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_002</LocID>                                                 <Text>เออร์ลิชิโอซิส </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>Ehrlichiosis is a flu-like disease that is closely related to Anaplasmosis. It is also spread by ticks.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>DIA_002_DESCRIPTION</LocID>                                     <Text>เออร์ลิชิโอซิส เป็นโรคคล้ายไข้หวัดใหญ่ เกี่ยวข้องกับอะนาพลาสโมซิส นอกจากนี้ยังแพร่กระจายด้วยเห็บ</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_003</LocID>                                                 <Text>ไข้ Boutonneuse </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_003_DESCRIPTION</LocID>                                     <Text>Boutonneuse fever is a fever caused by rickettsial infection caused by Rickettsia conorii and it is transmitted by the dog tick. The disease occurrs mainly in the Mediterranean basin, Middle East, Indian subcontinent and Africa.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>DIA_004</LocID>                                                 <Text>ไข้ด่างภูเขาร็อคกี้ </Text>  </GameDBLocalizedString>
@@ -228,18 +228,18 @@
             <GameDBLocalizedString>      <LocID>SYM_VIBRIO_CHOLERAE_DETECTED_X</LocID>                          <Text>พบเชื้ออหิวาตกโรค</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_SALMONELLA_TYPHI_DETECTED_X</LocID>                         <Text>พบไช้ไทฟอยด์</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_M._TUBERCULOSIS_DETECTED_X</LocID>                          <Text>พบวัณโรค</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_F._TULARENSIS_DETECTED_X</LocID>                            <Text>F. tularensis detected</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_B._ANTHRACIS_DETECTED_X</LocID>                             <Text>B. anthracis detected</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_STREPTOBACILLUS_DETECTED_X</LocID>                          <Text>Streptobacillus detected</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_B._HENSELAE_DETECTED_X</LocID>                              <Text>B. henselae detected</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_B._PERTUSSIS_DETECTED_X</LocID>                             <Text>B. pertussis detected</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_LEGIONELLA_DETECTED_X</LocID>                               <Text>Legionella detected</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_R._TYPHI_DETECTED_X</LocID>                                 <Text>R. typhi detected</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_TRYPANOSOMA_DETECTED_X</LocID>                              <Text>Trypanosoma detected</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_TOXOPLASMOSIS_DETECTED_X</LocID>                            <Text>Toxoplasmosis detected</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_BABESIOSIS_DETECTED_X</LocID>                               <Text>Babesios detected</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_LYME_DISEASE_DETECTED_X</LocID>                             <Text>Borrelia antibodies detected</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_PAROTID_INFECTED_X</LocID>                                  <Text>Parotid infection</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_F._TULARENSIS_DETECTED_X</LocID>                            <Text>พบเชื้อฟรานซิสเซลลา ทูลาเรนซิส</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._ANTHRACIS_DETECTED_X</LocID>                             <Text>พบเชื้อบาซิลลัสแอนทราซิส </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_STREPTOBACILLUS_DETECTED_X</LocID>                          <Text>พบสเตรปโทบาซิลลัส </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._HENSELAE_DETECTED_X</LocID>                              <Text>พบเชื้อบาร์โตเนลล่า เฮนเซเล</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_B._PERTUSSIS_DETECTED_X</LocID>                             <Text>พบเชื้อบอร์เตเทลล่าเพอร์ทัสซิส </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LEGIONELLA_DETECTED_X</LocID>                               <Text>พบลีเจียนเน็ลล่า </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_R._TYPHI_DETECTED_X</LocID>                                 <Text>พบเชื้อริเคทเซีย ไทฟี</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TRYPANOSOMA_DETECTED_X</LocID>                              <Text>พบเชื้อทริพาโนโซมา</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_TOXOPLASMOSIS_DETECTED_X</LocID>                            <Text>พบท็อกโซพลาสโมซิส</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_BABESIOSIS_DETECTED_X</LocID>                               <Text>พบบาเบสเซีย</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_LYME_DISEASE_DETECTED_X</LocID>                             <Text>พบ Borrelia antibodies </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_PAROTID_INFECTED_X</LocID>                                  <Text>การติดเชื้อในช่องหู</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_TBE_DETECTED_X</LocID>                                      <Text>พบ TBE </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_RABIES_DETECTED_X</LocID>                                   <Text>พบพิษสุนัขบ้า</Text>  </GameDBLocalizedString>
             
@@ -337,7 +337,7 @@
 
             <!-- SYMPTOMS -->
             <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER</LocID>                                   <Text>ไข้เลือดออก </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER_DESCRIPTION</LocID>                       <Text>Hemorrhagic fever affects multiple internal organs, damages blood vessels and affects the body's ability to regulate itself.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>SYM_HEMORRHAGIC_FEVER_DESCRIPTION</LocID>                       <Text>ไข้เลือดออกมีผลต่ออวัยวะภายในหลายส่วน มีการทำลายหลอดเลือดและส่งผลต่อความสามารถของร่างกายในการควบคุมตัวเอง</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING</LocID>                                    <Text>เลือดออกในปาก</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>SYM_ORIFICE_BLEEDING_DESCRIPTION</LocID>                        <Text>Acute hemorrhage from the body orifices like nose, mouth, eyes and/or ears.</Text>  </GameDBLocalizedString>
 
@@ -404,7 +404,7 @@
             <GameDBLocalizedString>       <LocID>ROOM_TYPE_HEMATOLOGY_LAB_DID</LocID>                     		<Text>ห้องปฏิบัติการโลหิตวิทยา </Text></GameDBLocalizedString>
 			
 			<!--new insurance-->
-			<GameDBLocalizedString>   	 <LocID>IN_COM_ID_NAME</LocID>                           				<Text>ชีวิตมีความสุข</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>   	 <LocID>IN_COM_ID_NAME</LocID>                           				<Text>Happy life</Text>  </GameDBLocalizedString>
 
         </LocalizedStrings>
     </GameDBStringTable>
